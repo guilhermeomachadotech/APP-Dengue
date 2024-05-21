@@ -1,0 +1,122 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        display:'flex',
+        flex:1,
+        padding:10,
+        backgroundColor:'white',
+    },
+    scroll:{
+        flex:1,
+        marginBottom:30,
+    },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 20,
+        borderBottomWidth: 1,
+
+        borderBottomColor: '#dee2e6', 
+      },
+      headerText: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginLeft: 10,
+        color: '#343a40', 
+      },
+    contTitulo:{
+        flex:1,
+        justifyContent:'center',
+        marginTop:30,
+        alignItems:'center',
+    },
+    txtTitulo:{
+        fontSize:30,
+        fontWeight:'bold',
+        textTransform:'uppercase',
+        color:'black',
+    },
+    cardDevs:{
+        display:'flex',
+        flexDirection:'column',
+        flex:2,
+        minHeight:300,
+        borderRadius:20,
+        backgroundColor:'white',
+        margin:20,
+        padding:10,
+        shadowColor: 'black',
+        shadowOffset:{
+            width:0,
+            height:10,
+        },
+        elevation:10,
+        shadowOpacity:0.22,
+        shadowRadius:2.22,
+    },
+    contImg:{
+        display:'flex',
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:20,
+    },
+    imgFoto:{
+        borderRadius:70,
+        width:150,
+        height:150,
+        resizeMode:'cover',
+    },
+    contNome:{
+        display:'flex',
+        
+        height:40,
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:20,
+    },
+    txtNome:{
+        fontSize:20,
+        textAlign:'center',
+        fontWeight:'bold',
+        color:'black',
+    },
+    contRedes:{
+        display:'flex',
+        flex:1,
+        flexDirection:'row',
+        justifyContent:'space-around',
+        marginLeft:50,
+        alignItems:'center',
+    },
+    btnRedes:{
+        display:'flex',
+        flex:1,
+        width:30,
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    imgRedes:{
+        width:40,
+        right:30,
+        resizeMode:'contain',
+    },
+    menu: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        paddingVertical: 10,
+        backgroundColor: '#f8f9fa',
+        borderTopWidth: 1,
+        borderTopColor: '#dee2e6',
+        position: 'absolute', 
+        bottom: 0, 
+        left: 0, 
+        right: 0, 
+        zIndex: 999, 
+    },
+    categoryIcon:{
+        marginHorizontal:15,
+    },
+})
